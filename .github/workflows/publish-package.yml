@@ -1,6 +1,8 @@
 name: GreetMe package
 on:
   release:
+    branches:
+    - releases
     types: [created]
 jobs:
   build:
