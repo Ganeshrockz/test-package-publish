@@ -1,0 +1,24 @@
+{
+  "name": "greet-me",
+  "version": "1.0.0",
+  "description": "Greets people",
+  "main": "./lib/greet.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganeshrockz/test-package-publish.git"
+  },
+  "author": "ganeshrockz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ganeshrockz/test-package-publish/issues"
+  },
+  "homepage": "https://github.com/Ganeshrockz/test-package-publish#readme",
+  "devDependencies": {
+    "@types/node": "14.14.14",
+    "typescript": "4.1.3"
+  }
+}
