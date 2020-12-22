@@ -1,5 +1,5 @@
 {
-  "name": "greet-me",
+  "name": "@ganeshrockz/greet-me",
   "version": "1.0.0",
   "description": "Greets people",
   "main": "./lib/greet.js",
