@@ -1,5 +1,5 @@
 name: GreetMe package
-on: 
+on:
   release:
     types: [published]
 jobs:
@@ -11,7 +11,6 @@ jobs:
       with:
         node-version: '14.x'
         registry-url: 'https://npm.pkg.github.com'
-        # Defaults to the user or organization that owns the workflow file
         scope: '@ganeshrockz'
     - run: npm install
     - run: npm run build
